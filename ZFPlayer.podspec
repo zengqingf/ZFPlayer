@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
     s.name             = 'ZFPlayer'
     s.version          = '3.1.2'
     s.summary          = 'A good player made by renzifeng'
-    s.homepage         = 'https://github.com/renzifeng/ZFPlayer'
+    s.homepage         = 'https://github.com/zengqingf/ZFPlayer'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'renzifeng' => 'zifeng1300@gmail.com' }
-    s.source           = { :git => 'https://github.com/renzifeng/ZFPlayer.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/renzifeng/ZFPlayer.git', :branch => 'dev' }
     s.social_media_url = 'http://weibo.com/zifeng1300'
     s.ios.deployment_target = '7.0'
     s.requires_arc = true
